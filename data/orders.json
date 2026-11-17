@@ -1,0 +1,11 @@
+[
+  {
+    "id": 101,
+    "customerId": 1,
+    "status": "Livree",
+    "date": "2026-10-10",
+    "items": [
+      { "productId": 10, "quantity": 2 },
+      { "productId": 10, "quantity": 1 }
+    ]
+}]
