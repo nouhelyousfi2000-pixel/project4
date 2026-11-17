@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Nouh", "city": "Marrakech", "active": true },
+  { "id": 2, "name": "Yassine ", "city": "Casablanca", "active": true },
+  { "id": 3, "name": "Saad", "city": "Marrakech", "active": true },
+  { "id": 4, "name": "Solayman", "city": "Taza", "active": false },
+  { "id": 5, "name": "Manar", "city": "TAza", "active": true },
+  { "id": 6, "name": "Solayman", "city": "Marrakech", "active": false }
+]
