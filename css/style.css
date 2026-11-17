@@ -1,0 +1,77 @@
+/* =========================================
+   Base
+========================================= */
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+/* =========================================
+   En-tête
+========================================= */
+
+.page-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+/* =========================================
+   Indicateurs
+========================================= */
+
+.stat-card {
+    height: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+/* =========================================
+   Tableau
+========================================= */
+
+.table {
+    border: 1px solid #dee2e6;
+}
+
+.table thead th {
+    background-color: #f1f3f5;
+}
+
+.table td,
+.table th {
+    padding: 14px;
+}
+
+
+/* =========================================
+   Badges de statut
+========================================= */
+
+.status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.status-delivered {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.status-pending {
+    background-color: #fff3cd;
+    color: #664d03;
+}
+
+.status-cancelled {
+    background-color: #f8d7da;
+    color: #842029;
+}
