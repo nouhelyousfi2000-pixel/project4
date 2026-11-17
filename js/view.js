@@ -13,6 +13,7 @@ const totalAmount = document.querySelector("#totalAmount");
 const resultCount = document.querySelector("#resultCount");
 const ordersTableBody = document.querySelector("#ordersTableBody");
 
+const orderModalElement = document.querySelector("#orderModal");
 const modalTitle = document.querySelector("#modalTitle");
 const modalBody = document.querySelector("#modalBody");
 
@@ -144,7 +145,7 @@ export const renderOrders = (preparedOrders) => {
 
 
 // -------------------------------------------------
-// Contenu du Modal (remplissage uniquement)
+// Modal (remplissage + ouverture)
 // -------------------------------------------------
 
 export const fillOrderModal = ({ order, customer, lines, total }) => {
@@ -204,4 +205,8 @@ export const fillOrderModal = ({ order, customer, lines, total }) => {
             <strong>Total :</strong> ${formatMoney(total)}
         </p>
     `;
+};
+
+export const openOrderModal = () => {
+    bootstrap.Modal.getOrCreateInstance(orderModalElement).show();
 };
