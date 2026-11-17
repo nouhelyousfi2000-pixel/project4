@@ -32,7 +32,8 @@ tp4/
 ## Lancer le projet
 1. Cloner le dépôt sur votre machine :
    ```bash
-   git clone git remote get-url origin
+   git clone https://github.com/nouhelyousfi2000-pixel/project4.git
+   cd project4
    ```
 2. Ouvrir le dossier du projet dans **Visual Studio Code**.
 3. Faire un clic droit sur `index.html` et sélectionner **Open with Live Server**.
